@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "MailDemo.Controllers.MailController",
+    "Method": "ClickEmail",
+    "RelativePath": "api/Mail/click/{emailId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "redirect",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailDemo.Controllers.MailController",
+    "Method": "GetLogs",
+    "RelativePath": "api/Mail/logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailDemo.Controllers.MailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Mail/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MailDemo.Models.MailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailDemo.Controllers.MailController",
+    "Method": "GetStats",
+    "RelativePath": "api/Mail/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailDemo.Controllers.MailController",
+    "Method": "TrackEmail",
+    "RelativePath": "api/Mail/track/{emailId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
