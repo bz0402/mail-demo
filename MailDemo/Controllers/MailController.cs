@@ -87,9 +87,9 @@ namespace MailDemo.Controllers
             var unsubscribeLinkHtml = $"<a href='{unsubscribeUrl}' target='_blank'>Unsubscribe</a>";
 
             // Hardcoded pixel tracking URL using your format
-            var pixelUrl = $"https://mailtracker-bmbjeehyg7gwandq.centralindia-01.azurewebsites.net/api/Mail/click/{traceId}?redirect=swagger";
+            var pixelUrl = $"https://reyna-unreasoned-superoffensively.ngrok-free.dev/api/Mail/click/{traceId}?redirect=swagger";
 
-            var trackingPixel = $"<a href='https://mailtracker-bmbjeehyg7gwandq.centralindia-01.azurewebsites.net/api/mail/track/{traceId}?redirect=swagger'>" +
+            var trackingPixel = $"<a href='https://reyna-unreasoned-superoffensively.ngrok-free.dev/api/Mail/click/{traceId}?redirect=swagger'>" +
                                 $"<img src='{pixelUrl}' alt='Tracking Pixel111'/></a>";
 
             var htmlContent = MarkdownHelper.ToHtml(markdown);
